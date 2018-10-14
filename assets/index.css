@@ -1,0 +1,89 @@
+/* here you can put your own css to customize and override the theme */
+@font-face {
+  font-family: "byekan";
+  src: url("fonts/byekan/BYekan.eot");
+  src: local("?"),
+    url("fonts/byekan/BYekan.woff") format("woff"),
+    url("fonts/byekan/BYekan.ttf") format("truetype");
+  font-style: normal;
+}
+.ltr {
+	direction: ltr;
+}
+body {
+	font-family: byekan;
+
+	/*direction: rtl;*/
+}
+
+.login {
+	position: relative;
+	width: 450px;
+	height: 500px;
+	background: #a7a7a7;
+	padding: 15px;
+	margin-left : 490px;
+    margin-top: 110px;
+    text-align: left;
+    
+}
+ button {
+	width: 70%;
+
+}
+
+.login button:hover {
+	
+	color:black	;
+	transition: color .5s;
+}
+::placeholder {
+	color: red;
+}
+
+/*tablecss*/
+
+table#t1, th, td{
+	border:1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+
+
+	}
+ 	table#t1 th{
+ 		text-align: left;
+ 		background-color: #f34141;
+ 	}
+ 	table#t1 tr{
+ 		cursor: pointer;
+ 	}
+ 	table#t1 th{
+ 		cursor: auto;
+ 		color:#212529;
+ 	}
+ 	table#t1 th,td{
+ 		padding: 4px;
+ 	}
+ 	table#t1  {
+ 		   padding: 10px;
+ 		   margin-right: 52px;
+ 	}
+ 	table#t1 tr:nth-child(even){
+ 		background-color: #c5baba;
+ 	}
+ 	table#t1 tr:nth-child(odd)
+ 	{
+ 		background-color: #e2e2e2;
+ 	}
+ 	table#t1 tr:hover
+ 	{
+ 		color: red;
+ 	}
+ 	/*table*/
+.tt {
+	direction: rtl;
+	text-align: right;
+}
+.tt input:focus{
+	color: red;
+}
